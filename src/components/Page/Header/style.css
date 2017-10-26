@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 20px 20px;
+  background-color: green;
+  color: white;
+}
+
+.header-right {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+}
+
+.sign-in {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title {
+  display: flex;
+  flex-flow: column nowrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-btn {
+  list-style: none;
+}
+
+button {
+  color: white;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 8px;
+}
