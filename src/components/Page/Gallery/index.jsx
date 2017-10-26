@@ -3,7 +3,7 @@ import './style.css'
 import GalleryItem from './GalleryItem'
 
 const Gallery = (props) => {
-  const menuItems = props.menuItems.map((i, index) => (
+  const galleryItems = props.menuItems.map((i, index) => (
     <GalleryItem
       title={i.title}
       image={i.image}
@@ -15,7 +15,7 @@ const Gallery = (props) => {
     <div className='gallery'>
       <h1 className='gallery-title'>Our Fresh Meals</h1>
       <div className='gallery-items'>
-        {menuItems}
+        {galleryItems}
       </div>
     </div>
   )
