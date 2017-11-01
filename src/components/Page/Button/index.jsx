@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 const Button = (props) => {
-const button = props.href
+  const button = props.href
   ? <a href={props.href}><button>{props.children}</button></a>
   : <button>{props.children}</button>
   return (

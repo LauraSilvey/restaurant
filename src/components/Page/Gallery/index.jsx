@@ -5,6 +5,7 @@ import GalleryItem from './GalleryItem'
 const Gallery = (props) => {
   const galleryItems = props.menuItems.map((i, index) => (
     <GalleryItem
+      key={index}
       title={i.title}
       image={i.image}
       description={i.description}

@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.menu-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}

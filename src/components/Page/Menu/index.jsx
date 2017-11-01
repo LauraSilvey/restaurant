@@ -5,6 +5,7 @@ import MenuItem from './MenuItem'
 const Menu = (props) => {
   const menuItems = props.menuItems.map((i, index) => (
     <MenuItem
+      key={index}
       title={i.title}
       description={i.description}
       price={i.price}

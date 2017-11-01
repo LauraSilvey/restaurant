@@ -4,7 +4,8 @@ import Nav from './Nav'
 import Admin from './Admin'
 import iVeggies from './images/vegies-left.jpg'
 
-const Header = () => {
+const Header = (props) => {
+
   return (
     <div className='header'>
       <div className='header-left'>
@@ -16,7 +17,11 @@ const Header = () => {
           <h1>Wholesome Foods</h1>
           <h3>Delicious meals made with locally sourced organic ingredients</h3>
         </div>
-        <Nav />
+        <Nav
+          signedIn={props.signedIn}
+          handleSignInClick={props.handleSignInClick}
+          handleEditMenuClick={props.handleEditMenuClick}
+        />
       </div>
     </div>
   )
