@@ -22,7 +22,6 @@ class Page extends Component {
 
   handleEditMenuClick = (event) => {
     this.setState( {editMenu: !this.state.editMenu })
-    event.preventDefault()
   }
 
   handleChange = (index, inputName, value) => {
