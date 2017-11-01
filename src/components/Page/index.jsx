@@ -33,7 +33,6 @@ class Page extends Component {
     })
   }
 
-
   render() {
     return (
       <div className="page">
@@ -55,8 +54,6 @@ class Page extends Component {
             menuItems={this.state.menuItems}
           />
         }
-
-
       </div>
     );
   }
