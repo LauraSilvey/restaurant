@@ -51,6 +51,7 @@ class Page extends Component {
             handleEditMenuClick={this.handleEditMenuClick}
           />
           : <Menu
+            id='menu'
             menuItems={this.state.menuItems}
           />
         }

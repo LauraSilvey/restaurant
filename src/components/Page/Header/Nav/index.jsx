@@ -1,16 +1,16 @@
 import React from 'react';
 import './style.css';
-import Button from '../../Button'
+// import Button from '../../Button'
 
 const Nav = (props) => {
 
   return (
     <div className='nav-btns'>
       <ul className='nav-list'>
-        <li className='list-btn'><Button>Menu</Button></li>
-        <li className='list-btn'><Button>Gallery</Button></li>
-        <li className='list-btn'><Button>Location</Button></li>
-        <li className='list-btn'><Button>Our Story</Button></li>
+        <li className='list-btn'><button>Menu</button></li>
+        <li className='list-btn'><button>Gallery</button></li>
+        <li className='list-btn'><button>Location</button></li>
+        <li className='list-btn'><button>Our Story</button></li>
         {props.signedIn
           ? <div>
             <li className='list-btn'><button
